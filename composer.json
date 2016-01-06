@@ -1,18 +1,5 @@
 {
-    "name": "zendframework/zendservice-twitter",
-    "description": "OOP wrapper for the Twitter web service",
-    "type": "library",
-    "keywords": [
-        "zf2",
-        "twitter"
-    ],
-    "homepage": "http://packages.zendframework.com/",
-    "license": "BSD-3-Clause",
-    "autoload": {
-        "psr-0": {
-            "ZendService\\Twitter\\": "library/"
-        }
-    },
+	"name": "tweet.fm",
     "repositories": [
         {
             "type": "composer",
@@ -21,6 +8,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
+        "zendframework/zendservice-twitter": ">=2.0.0",
         "zendframework/zend-feed": ">=2.0.0",
         "zendframework/zend-http": "^2.5",
         "zendframework/zend-json": ">=2.0.0",
